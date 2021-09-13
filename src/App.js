@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import fire from './fire';
-import Login from "./Login";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import fire from './fire';
+// import Login from "./Login";
 import './App.css';
 import Hero from "./Hero";
 import { nanoid } from 'nanoid';
@@ -9,21 +9,21 @@ import { nanoid } from 'nanoid';
 
 
 function App() {
-  const [user, setUser] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [emailError, setEmailError] = useState('');
-  const [passwordError, setPasswordError] = useState('');
-  const [hasAccount, setHasAccount] = useState('false');
-  const clearInputs = () => {
-    setEmail('');
-    setPassword('');
-  };
-  const clearErrors = () => {
-    setEmailError('');
-    setPasswordError('');
+  // const [user, setUser] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
+  // const [emailError, setEmailError] = useState('');
+  // const [passwordError, setPasswordError] = useState('');
+  // const [hasAccount, setHasAccount] = useState('false');
+  // const clearInputs = () => {
+  //   setEmail('');
+  //   setPassword('');
+  // };
+  // const clearErrors = () => {
+  //   setEmailError('');
+  //   setPasswordError('');
 
-  };
+  // };
   // const handleLogin = () => {
   //   clearErrors();
   //   fire
